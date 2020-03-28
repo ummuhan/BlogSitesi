@@ -1,0 +1,11 @@
+﻿@model IEnumerable< BlogSitesi.Models.Blog>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <h1>INDEX</h1>
+
+@foreach (var i in Model)
+{
+<p>@i.Baslik</p>
+}
